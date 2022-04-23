@@ -1,0 +1,49 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin-left: 1rem;
+}
+
+#userInputContainer{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+}
+
+body{
+    background-color:aquamarine ;
+}
+
+/* Individual Container Styles*/
+.individualContainer,.oldNote{
+    margin: .5rem auto;
+    display: flex;
+    background-color: white;
+    min-width: 85vw;
+}
+.mainButton{
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: lightgray;
+    width:1.75rem;
+    height: 1.75rem;;
+}
+.exitButton{
+    margin: auto;
+    height: 17px;
+    width: 17px;
+}
+#user_input{
+    border-style: none;
+    width: 200px;
+    height: 50px;
+}
+
+/**/
+
